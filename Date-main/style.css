@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Kalnia&family=Love+Light&family=Lovers+Quarrel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(picture/Haa.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #bd8a8a49;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px;
+    border-radius: 20px;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+.question{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px 20px 20px;
+    font-family: "HELVETICA";
+}
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 ;
+}
+button{
+    color: #ffffff;
+    display: flex;
+    position: absolute;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.473);
+}
+
+button:nth-child(1){
+    margin-left: -200px;
+    background-color: rgb(255, 104, 104);
+    
+}
+
+button:nth-child(2){
+    margin-right: -200px;
+    color: rgb(255, 104, 104);
+}
+
+button:hover{
+    box-shadow: 0 5px 8px rgba(255, 88, 88, 0.473);
+}
+@media screen and (max-width: 480px) {
+    .card {
+        max-width: 100%;
+    }
+
+    .question h2 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+
